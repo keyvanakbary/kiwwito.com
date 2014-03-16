@@ -14,13 +14,16 @@ Abrimos "Conexiones de red".
 
 O podemos introducir en consola "nm-connection-editor" (Ubuntu 10.04) o network-manager (Ubuntu < 10.04)
 
-<img src="/uploads/images/full/652ed52a6a7543ca570d14f40677d79d860ebb6d.png" alt="" />
+![Eduroam Add Network]({{ site.url }}/assets/posts/eduroam-add-network.png)
+
 Seleccionamos la pestaña "Inalámbrica" y pulsamos sobre el botón "Añadir".
 
-<img src="/uploads/images/full/124771290049d4113bff098405ba460dd6842bef.png" alt="" />
+![Eduroam Configuration]({{ site.url }}/assets/posts/eduroam-configuration.png)
+
 En la pestaña "Inalámbrica" insertamos en campo SSID el valor "**eduroam**".
 
-<img src="/uploads/images/full/41739eebb8dcb6e2f4b54bbea05914f8de2fd84c.png" alt="" width="495" height="512" />
+![Eduroam Configuration]({{ site.url }}/assets/posts/eduroam-security.png)
+
 En la pestaña "**Seguridad inalámbrica**", en "**Seguridad**" seleccionamos "**WPA2 enterprise**", en "**Autenticación**" seleccionamos "**TLS a través de tunel**", en "**Identidad anónima**" no insertamos nada, en "**Certificado CA**" ninguno, "**Autenticación interna**" seleccionamos "**PAP**" y en "**Usuario**" y "**Contraseña**", los habituales para acceder a los servicios de tu universidad (normalmente alumno@universidad.com).
 
 En este punto y habiendonos conectado previamente ya podemos acceder a la red a través de "eduroam".

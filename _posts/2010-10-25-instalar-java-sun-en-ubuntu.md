@@ -16,33 +16,24 @@ Si tienes Ubuntu 10.10 debes primero añadir y activar el repositorio partner de
 ### Instalar Java
 Desde Ubuntu puedes descargarlas e instalarlas de forma muy sencilla mediante:
 
-
-    # aptitude install sun-java6-jre sun-java6-plugin
+    aptitude install sun-java6-jre sun-java6-plugin
 
 o la versión para desarrolladores:
 
-
-    # aptitude install sun-java6-jdk sun-java6-plugin
+    aptitude install sun-java6-jdk sun-java6-plugin
 
 Una vez instalados, debemos especificar las aplicaciones Java se ejecuten en la máquina virtual de <span style="text-decoration: line-through;">**Sun**</span> **Oracle**.
 
 Para ver las posibles alternativas:
 
-{% highlight bash %}
-# update-alternatives --list java
-
-{% endhighlight %}
+    update-alternatives --list java
 
 Debemos fijarnos en que alternativa elegir. Para la versión de <span style="text-decoration: line-through;">**Sun**</span> **Oracle** elegiremos "java6-sun":
 
-{% highlight bash %}
-# update-alternatives --config java
-
-{% endhighlight %}
+    update-alternatives --config java
 
 Ahora debes seleccionar la opción correcta (aquella en la que figurará java-6-sun).
 
 Para verificar que todo ha seguido según lo esperado comprobamos la versión de Java:
 
-
-    # java -version
+    java -version

@@ -33,7 +33,6 @@ class TestDemoExtension extends Extension
         return 'test_demo';
     }
 }
-
 {% endhighlight %}
 
 Connect the Twig extension engine with the translator service (create an XML config file Test/DemoBundle/Resources/config/twig.xml)
@@ -96,14 +95,12 @@ class DemoExtension extends \Twig_Extension
         return $this->translator->trans($text);
     }
 }
-
 {% endhighlight %}
 
 And thats all! We can use our new i18n method into all of our DemoBundle Twig templates
 
 {% highlight jinja %}
 {{ translate('text') }}
-
 {% endhighlight %}
 
 Do not forget to activate the i18n in the app/config/config.yml

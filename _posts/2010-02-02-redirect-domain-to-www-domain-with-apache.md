@@ -6,7 +6,7 @@ redirect_from: /article/redirect-domain-to-www-domain-with-apache/
 locale: en
 ---
 
-Must create/modify the file <strong>.htaccess</strong> in the domain root directory wich also must have the following apache configuration lines:
+Must create/modify the file `.htaccess` in the domain root directory wich also must have the following apache configuration lines:
 
 {% highlight apache %}
 RewriteEngine on

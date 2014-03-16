@@ -7,8 +7,8 @@ locale: en
 ---
 
 PHP function which checks if a given string was a valid spanish DNI/NIE:
-{% highlight php startinline %}
 
+{% highlight php startinline %}
 /**
  * Function which checks if a string is a valid spanish DNI/NIE
  *

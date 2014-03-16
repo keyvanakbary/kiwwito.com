@@ -12,7 +12,6 @@ For example, if we want to add a library like <a href="http://qbnz.com/highlight
 
 As the Symfony 2 standard says, we have to store all the external libraries into the /vendor folder. In order to force GeSHi to load like the <a href="http://groups.google.com/group/php-standards/web/psr-0-final-proposal?pli=1" target="_blank">PSR-0</a> standard (fact standard for autoloading in Symfony 2) we must create the following directory structure:
 
-
     /vendor/geshi/lib/Geshi/src
 
 And store there the GeSHi lib.

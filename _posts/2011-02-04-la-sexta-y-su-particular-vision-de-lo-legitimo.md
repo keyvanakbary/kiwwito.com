@@ -4,6 +4,7 @@ title: "La Sexta y su particular visión de lo legítimo"
 description: "La ley Sinde ha llegado antes de tiempo… será verdad que La Sexta se mueve..."
 redirect_from: /articulo/la-sexta-y-su-particular-vision-de-lo-legitimo/
 locale: es
+published: false
 ---
 
 <div style="font-size:10px; border:1px solid #900; padding:4px;color:#900; ">Nota: Kiwwito.com ha cedido éste espacio para que Syrus Akbary pueda expresar su opinión mas allá de los 140 carácteres de un tweet.</div>

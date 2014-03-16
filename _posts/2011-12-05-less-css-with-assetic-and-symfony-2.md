@@ -53,7 +53,6 @@ That will combine all the LESS files that where under the "less" directory of yo
 
 On development environment all the files will be generated for every request. For production environment you have to generate them manually:
 
-
     php app/console assetic:dump --env=dev --no-debug
 
 You can use this filter with other powerful filters like the<a href="/article/minify-css-and-js-files-with-assetic-and-symfony2" target="_blank">YUI compressor filter for Assetic</a>.

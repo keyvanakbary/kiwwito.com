@@ -53,7 +53,6 @@ Combinará todos los ficheros LESS que cuelguen de la carpeta less de nuestro Bu
 
 En el entorno de desarrollo se generarán los ficheros de forma dinámica por cada petición, para el entorno de producción hay que generarlos de forma manual:
 
-
     php app/console assetic:dump --env=dev --no-debug
 
 Este filtro se puede combinar con cualquier otro, como por ejemplo <a href="/articulo/minificar-ficheros-css-y-js-con-assetic-y-symfony2" target="_blank">el filtro de compresión YUI para Assetic</a>.

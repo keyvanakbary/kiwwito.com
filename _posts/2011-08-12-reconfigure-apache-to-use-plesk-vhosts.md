@@ -9,5 +9,4 @@ locale: en
 Sometimes the Apache configuration for the virtual hosts magically disappear when you update to a major version of Plesk.
 An easy way to restore it is to reconfigure Apache through the command-line running the next command:
 
-
     /usr/local/psa/admin/sbin/httpdmng --reconfigure-all

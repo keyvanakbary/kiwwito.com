@@ -12,7 +12,6 @@ Por ejemplo, para añadir una librería como GeSHi cuyo formato es anterior a la
 
 Como manda el estándar, cualquier librería externa ha de alojarse en nuestra carpeta /vendor. Para forzar a que <a href="http://qbnz.com/highlighter/" target="_blank">GeSHi</a> se cargue con el estandar <a href="http://groups.google.com/group/php-standards/web/psr-0-final-proposal?pli=1" target="_blank">PSR-0</a> (estándar autoloader de Symfony 2) deberemos crear la siguiente estructura de directorios:
 
-
     /vendor/geshi/lib/Geshi/src
 
 Y almacenar en src directamente la librería GeSHi.

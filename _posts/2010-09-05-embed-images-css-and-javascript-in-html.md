@@ -25,8 +25,8 @@ The complication of this method is to get the "**base64**" encoded content of th
 <img alt="Embeded image" src="data:image/jpeg;base64,<?php echo base64_encode(file_get_contents('image.jpg'))?>"/>
 {% endhighlight %}
 
-Also you can use <a href="http://www.greywyvern.com/code/php/binary2base64">one of the many online tools</a> for this target. 
+Also you can use <a href="http://www.greywyvern.com/code/php/binary2base64">one of the many online tools</a> for this target.
 
- When you create a HTML document, the structure will not disappear, but what will happen with the external objects?
+When you create a HTML document, the structure will not disappear, but what will happen with the external objects?
 
- This is an easy method to secure the content of the objects into the document forever.
+This is an easy method to secure the content of the objects into the document forever.

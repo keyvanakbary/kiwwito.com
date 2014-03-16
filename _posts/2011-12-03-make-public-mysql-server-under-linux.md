@@ -12,9 +12,9 @@ We have to edit your "/etc/my.conf" and add/edit the next lines:
 
 {% highlight ini %}
 [mysqld]
-port = 3306
-bind-address = 10.10.0.1
-# skip-networking
+    port = 3306
+    bind-address = 10.10.0.1
+    # skip-networking
 {% endhighlight %}
 
 Don't forget to restart the daemon:

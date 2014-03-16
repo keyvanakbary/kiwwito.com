@@ -11,23 +11,18 @@ Un problema habitual en un proyecto Symfony es que los directorios "app/cache" y
 ### 1. Usar ACL en un sistema que soporta chmod +a
 Muchos sistemas permiten el uso del comando "chmod +a". Intentalo primero, si falla prueba con el paso siguiente:
 
-{% highlight bash %}
-rm -rf app/cache/*
-rm -rf app/logs/*
+    rm -rf app/cache/*
+    rm -rf app/logs/*
 
-sudo chmod +a "www-data allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
-sudo chmod +a "yourname allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
 
-{% endhighlight %}
+    sudo chmod +a "www-data allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
+    sudo chmod +a "yourname allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
 
 ### 2. Usar ACL en un sistema que no soporta chmod +a
 Algunos sistemas no soportan "chmod +a", pero si una utilidad llamada "settfacl". En primer lugar debes <a href="https://help.ubuntu.com/community/FilePermissions#ACLs">habilitar ACL</a> en tu partición e instalar posteriormente "setfacl". Los comandos a ejecutar son:
 
-{% highlight bash %}
-sudo setfacl -R -m u:www-data:rwx -m u:yourname:rwx app/cache app/logs
-sudo setfacl -dR -m u:www-data:rwx -m u:yourname:rwx app/cache app/logs
-
-{% endhighlight %}
+    sudo setfacl -R -m u:www-data:rwx -m u:yourname:rwx app/cache app/logs
+    sudo setfacl -dR -m u:www-data:rwx -m u:yourname:rwx app/cache app/logs
 
 ### 3. Sin ACL
 Si no tienes tienes permisos para modificar el ACL de los directorios puedes incluir el comando "umask" en la cabecera de los ficheros "app/console", "web/app.php" y "web/app_dev.php":

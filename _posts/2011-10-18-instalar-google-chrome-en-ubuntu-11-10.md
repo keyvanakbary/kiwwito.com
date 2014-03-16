@@ -10,11 +10,9 @@ Algunas de las librerías que se incluían por defecto en la distribución de Ub
 
 Una vez <a href="http://www.google.com/chrome/eula.html">descargado el paquete</a> hay que instalarlo de forma manual a través de la terminal mediante el siguiente comando (importante, sustituir "file_name" por el nombre del fichero):
 
-
     sudo dpkg -i file_name.deb
 
 El problema es que no se podrá debido al fallo de dependencias no instaladas, para solucionarlo:
-
 
     sudo apt-get -f install
 

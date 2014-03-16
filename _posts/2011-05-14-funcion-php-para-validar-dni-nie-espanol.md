@@ -7,8 +7,8 @@ locale: es
 ---
 
 Función PHP que comprueba si una cadena de texto es un DNI/NIE español válida:
-{% highlight php startinline %}
 
+{% highlight php startinline %}
 /**
  * Función que comprueba si una cadena dada es un DNI/NIE válida
  *

@@ -6,12 +6,12 @@ redirect_from: /articulo/redirigir-a-conexion-segura-https-en-apache/
 locale: es
 ---
 
-Redirigir una solicitud de acceso a un determinado fichero o directorio, es tan sencillo como incluir las siguientes líneas al fichero Apache <strong>.htaccess</strong> en la raiz de nuestro directorio web:
+Redirigir una solicitud de acceso a un determinado fichero o directorio, es tan sencillo como incluir las siguientes líneas al fichero Apache `.htaccess` en la raiz de nuestro directorio web:
 
 {% highlight apache %}
 RewriteCond %{SERVER_PORT} !^443$
 RewriteCond %{REQUEST_URI} ^/fichero$
-RewriteRule ^(.*)$ https://www.dominio.com/$1 [L,R]
+RewriteRule ^(.*)$ https://www.example.com/$1 [L,R]
 {% endhighlight %}
 
-Esto sencillamente redireccionará cualquier petición del fichero "fichero" (por ejemplo) mediante el protocolo HTTP (cualquier acceso por un puerto que no sea 443) a una URL HTTPS de la forma "https://www.dominio.com/fichero"
+Esto sencillamente redireccionará cualquier petición del fichero "fichero" (por ejemplo) mediante el protocolo HTTP (cualquier acceso por un puerto que no sea 443) a una URL HTTPS de la forma "https://www.example.com/fichero"

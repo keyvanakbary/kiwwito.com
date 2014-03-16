@@ -6,7 +6,7 @@ redirect_from: /articulo/descargar-albumes-y-fotos-de-tu-tuenti-con-php/
 locale: es
 ---
 
-Por supuesto el primer paso será <a href="/proyecto/tuenti-api/descargas">descargar el API no oficial de Tuenti</a> y <a href="/proyecto/tuenti-api/leeme">asegurarnos de que funciona correctamente</a>.
+Por supuesto el primer paso será <a href="https://github.com/keyvanakbary/php-tuenti-api">descargar el API no oficial de Tuenti</a> y asegurarnos de que funciona correctamente.
 
 El script de descarga no puede ser mas sencillo (incluido en los ejemplos del API):
 
@@ -67,4 +67,4 @@ catch (Exception $e)
 }
 {% endhighlight %}
 
-Se han definido unas constantes en la cabecera para que la configuración del script sea mas sencilla. El API nos permite visualizar fotos de 20 en 20, es por eso que el recorrido es por páginas (utilización del método <code>floor()</code>).
+Se han definido unas constantes en la cabecera para que la configuración del script sea mas sencilla. El API nos permite visualizar fotos de 20 en 20, es por eso que el recorrido es por páginas (utilización del método `floor()`).

@@ -33,7 +33,6 @@ class TestDemoExtension extends Extension
         return 'test_demo';
     }
 }
-
 {% endhighlight %}
 
 Configuramos la conexión entre nuestra extensión Twig y el servicio de traducción (creamos el fichero de configuración Test/DemoBundle/Resources/config/twig.xml)
@@ -51,7 +50,6 @@ Configuramos la conexión entre nuestra extensión Twig y el servicio de traducc
         </service>
     </services>
 </container>
-
 {% endhighlight %}
 
 Creamos la extensión de Twig contando con el servicio de traducción como parámetro en el constructor de clase (que será introducido por el inyector de dependencias)
@@ -96,14 +94,12 @@ class DemoExtension extends \Twig_Extension
         return $this->translator->trans($text);
     }
 }
-
 {% endhighlight %}
 
 ¡Y eso es todo! Ahora podemos utilizar nuestra nueva función de traducción en cualquier plantilla del Bundle DemoBundle
 
 {% highlight jinja %}
 {{ translate('text') }}
-
 {% endhighlight %}
 
 No te olvides de activar la i18n en app/config/config.yml

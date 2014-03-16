@@ -6,6 +6,6 @@ redirect_from: /articulo/regex-en-buscar-y-reemplazar-para-gedit/
 locale: es
 ---
 
-Descarga el plugin de <span style="text-decoration: line-through;"><a title="Descargar plugin regex gedit" href="http://vaem.googlecode.com/files/gedit2_regex_replace_plugin.tar.gz">google code</a></span> o <a href="/descarga/c9a069af9a46df0420e88650d1755bb3">de kiwwito</a> y extrae su contenido en <strong>"~/.gnome2/gedit/plugins/"</strong>, si no existe esta ruta, creala.
+[Descarga el plugin]({{ post.url }}/assets/posts/gedit-regex-plugin.gz) y extrae su contenido en `~/.gnome2/gedit/plugins`, si no existe esta ruta, creala.
 
 Activa el plugin (**"Editar>Preferencias>Complementos"**) y reinicia Gedit. Ya lo tienes disponible. Para utilizarlo debes ir a "**Herramientas>Regex Search & Replace"**.

@@ -35,5 +35,4 @@ Assetic will compile all of the CSS files of our bundle into a minified and unif
 
 In development environment the process will generate the file for every request. For production environment you have to generate the file manually through the next command:
 
-
     php app/console assetic:dump --env=dev --no-debug

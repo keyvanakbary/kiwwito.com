@@ -20,15 +20,11 @@ At first, we have to install Doctrine extensions and its Symfony Bundle integrat
 [DoctrineExtensionsBundle]
     git=git://github.com/stof/StofDoctrineExtensionsBundle.git
     target=/bundles/Stof/DoctrineExtensionsBundle
-
 {% endhighlight %}
 
 Install
 
-{% highlight bash %}
-$ bin/vendors install
-
-{% endhighlight %}
+    bin/vendors install
 
 Add the next lines to the app/autoload.php file:
 
@@ -53,13 +49,11 @@ public function registerBundles()
         // ...
     );
 }
-
 {% endhighlight %}
 
 Once done, configure it at app/config/config.yml (add the listeners, more info and options at <a href="https://github.com/stof/StofDoctrineExtensionsBundle/blob/master/Resources/doc/index.rst">StofDoctrineExtensions</a>)
 
 {% highlight yaml %}
-#...
 doctrine:
     orm:
         auto_mapping: true
@@ -68,20 +62,16 @@ stof_doctrine_extensions:
     orm:
         default:
             sluggable: true
-#...
-
 {% endhighlight %}
 
 Do not forget to clear the cache
 
-
-    $ php app/console cache:clear
+    php app/console cache:clear
 
 ### Usage example
 One example entity with the Sluggable and Timestampable behaviours activated could be:
 
 {% highlight php startinline %}
-
 namespace Entity;
 
 use Gedmo\Mapping\Annotation as Gedmo;

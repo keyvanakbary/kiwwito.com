@@ -11,23 +11,18 @@ One common issue in Symfony 2 projects is that the "app/cache" and "app/logs" di
 ### 1. Using ACL on a system that supports chmod +a
 Many systems allow you to use the "chmod +a" command. Try this first, and if you get an error - try the next method:
 
-{% highlight bash %}
-rm -rf app/cache/*
-rm -rf app/logs/*
+    rm -rf app/cache/*
+    rm -rf app/logs/*
 
-sudo chmod +a "www-data allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
-sudo chmod +a "yourname allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
 
-{% endhighlight %}
+    sudo chmod +a "www-data allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
+    sudo chmod +a "yourname allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
 
 ### 2. Using Acl on a system that does not support chmod +a
 Some systems don't support "chmod +a", but do support another utility called "setfacl". You may need to <a href="https://help.ubuntu.com/community/FilePermissions#ACLs">enable ACL support</a> on your partition and install "setfacl "before using it (as is the case with Ubuntu), like so:
 
-{% highlight bash %}
-sudo setfacl -R -m u:www-data:rwx -m u:yourname:rwx app/cache app/logs
-sudo setfacl -dR -m u:www-data:rwx -m u:yourname:rwx app/cache app/logs
-
-{% endhighlight %}
+    sudo setfacl -R -m u:www-data:rwx -m u:yourname:rwx app/cache app/logs
+    sudo setfacl -dR -m u:www-data:rwx -m u:yourname:rwx app/cache app/logs
 
 ### 3. Without using ACL
 If you don't have access to changing the ACL of the directories, you will need to change the "umask" so that the cache and log directories will be group-writable or world-writable (depending if the web server user and the command line user are in the same group or not). To achieve this, put the following line at the beginning of the "app/console", "web/app.php" and "web/app_dev.php" files:

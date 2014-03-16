@@ -6,7 +6,7 @@ redirect_from: /articulo/redirigir-dominio-a-www-dominio-con-apache/
 locale: es
 ---
 
-Se debe crear/modificar el fichero <strong>.htaccess</strong> en la raiz del dominio que al menos debe contener las siguientes líneas de código:
+Se debe crear/modificar el fichero `.htaccess` en la raiz del dominio que al menos debe contener las siguientes líneas de código:
 
 {% highlight apache %}
 RewriteEngine on

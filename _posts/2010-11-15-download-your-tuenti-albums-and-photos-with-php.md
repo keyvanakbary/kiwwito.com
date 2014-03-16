@@ -6,7 +6,7 @@ redirect_from: /article/download-your-tuenti-albums-and-photos-with-php/
 locale: en
 ---
 
-The first step must be <a href="/project/tuenti-api/downloads">download the non official Tuenti API</a> and <a href="/project/tuenti-api/readme">make sure that all was correct</a>.
+The first step must be <a href="https://github.com/keyvanakbary/php-tuenti-api">download the non official Tuenti API and make sure that all was correct.
 
 The download script is very simple (included into the examples of the API):
 
@@ -67,4 +67,4 @@ catch (Exception $e)
 }
 {% endhighlight %}
 
-There was defined some constants in the head of the file in order to configure more easily the script. The API gives us the photos 20 by 20, that is the reason why we use the method <code>floor()</code>.
+There was defined some constants in the head of the file in order to configure more easily the script. The API gives us the photos 20 by 20, that is the reason why we use the method `floor()`.

@@ -25,10 +25,7 @@ Primero debemos instalar las extensiones para doctrine y el bundle de integraci�
 
 Instalamos
 
-{% highlight bash %}
-$ bin/vendors install
-
-{% endhighlight %}
+    bin/vendors install
 
 Incorporamos las siguientes líneas al app/autoload.php
 
@@ -53,13 +50,11 @@ public function registerBundles()
         // ...
     );
 }
-
 {% endhighlight %}
 
 Configuramos el app/config/config.yml (donde activaremos los listeners que necesitamos, mas información en <a href="https://github.com/stof/StofDoctrineExtensionsBundle/blob/master/Resources/doc/index.rst">StofDoctrineExtensions</a>)
 
 {% highlight yaml %}
-#...
 doctrine:
     orm:
         auto_mapping: true
@@ -68,20 +63,16 @@ stof_doctrine_extensions:
     orm:
         default:
             sluggable: true
-#...
-
 {% endhighlight %}
 
 No nos olvidemos de limpiar la cache
 
-
-    $ php app/console cache:clear
+    php app/console cache:clear
 
 ### Ejemplo de uso
 Una entidad de ejemplo con los comportamientos Sluggable y Timestampable podría ser:
 
 {% highlight php startinline %}
-
 namespace Entity;
 
 use Gedmo\Mapping\Annotation as Gedmo;

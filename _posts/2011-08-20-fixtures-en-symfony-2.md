@@ -22,10 +22,7 @@ Para instalar el sistema de fixtures de Doctrine 2, debemos añadir las siguient
 
 E instalarlo por consola:
 
-{% highlight bash %}
-$ bin/vendors install
-
-{% endhighlight %}
+    bin/vendors install
 
 Activamos el bundle en el app/autoload.php:
 {% highlight php startinline %}
@@ -48,7 +45,6 @@ public function registerBundles()
     );
     // ...
 }
-
 {% endhighlight %}
 
 Por lo general crearemos un fichero de carga por cada entidad del modelo, así pues, un fixture de ejemplo para la carga de usuarios de prueba en el sistema podría ser:
@@ -101,4 +97,4 @@ class LoadUserData extends AbstractFixture implements OrderedFixtureInterface
 
 La carga de datos en la base de datos se produce bajo demanda, es necesario ejecutar la siguiente tarea:
 
-    $ php app/console doctrine:fixtures:load
+    php app/console doctrine:fixtures:load

@@ -10,14 +10,10 @@ Some libs was were included in previous versions of Ubuntu, on the new release 1
 
 Once <a href="http://www.google.com/chrome/eula.html">downloaded</a>, you have to install them manually through the next command:
 
-
     sudo dpkg -i file_name.deb
 
 At this point you will see an error, don't worry, once again is a dependency problem. In order to solve it:
 
-
     sudo apt-get -f install
-
-
 
 Thats all! Enjoy!

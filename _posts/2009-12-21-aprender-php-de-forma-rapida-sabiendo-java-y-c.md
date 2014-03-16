@@ -7,8 +7,8 @@ locale: es
 ---
 
 Dada la enorme similitud entre la programación Orientada a Objetos de PHP y Java y la programación procedimental de PHP a C, conociendo uno o ambos aprender PHP será un prácticamente un juego de niños.
-### Programación OO PHP muy similar a Java:
-**En Java:**
+
+### En Java
 
 {% highlight java %}
 //Clase Abstracta
@@ -53,7 +53,7 @@ class MiClaseConHerenciaEInterfaz extends MiClaseAbstracta implements MiInterfaz
 }
 {% endhighlight %}
 
-**En PHP:**
+### En PHP
 
 {% highlight php startinline %}
 //Clase Abstracta
@@ -127,15 +127,14 @@ main();
 
 {% endhighlight %}
 
-### Principales diferencias:
-<ul>
-<li>En PHP todas las **variables** van precedidas con el caracter '$'</li>
-<li>PHP es un lenguaje muy poco o practicamente no tipado, no es necesaria la definición del tipo en la variable</li>
-<li>En PHP el método contructor en las clases es "**__construct**"</li>
-<li>En PHP todos los métodos/procedimientos han de precederse con la palabra reservada "**function**"</li>
-<li>En PHP el acceso a métodos de clases (de instancias de objetos) ha de ser con el operador "**->**"</li>
-<li>En PHP el acceso a los métodos del padre se pueden hacer con "**parent::**" o "**$this->**"</li>
-<li>En PHP cualquier acceso estático se hace mediante el operador "**::**"</li>
-<li>En PHP la inclusión de ficheros externos se realiza mediante la llamada a "include" o "require"</li>
-<li>En PHP no hay métodos autoejecutables (como el "main" de Java o C) se han de llamar explicitamente.</li>
-</ul>
+### Principales diferencias
+
+- En PHP todas las **variables** van precedidas con el caracter '$'
+- PHP es un lenguaje muy poco o practicamente no tipado, no es necesaria la definición del tipo en la variable
+- En PHP el método contructor en las clases es "**__construct**"
+- En PHP todos los métodos/procedimientos han de precederse con la palabra reservada "**function**"
+- En PHP el acceso a métodos de clases (de instancias de objetos) ha de ser con el operador "**->**"
+- En PHP el acceso a los métodos del padre se pueden hacer con "**parent::**" o "**$this->**"
+- En PHP cualquier acceso estático se hace mediante el operador "**::**"
+- En PHP la inclusión de ficheros externos se realiza mediante la llamada a "include" o "require"
+- En PHP no hay métodos autoejecutables (como el "main" de Java o C) se han de llamar explicitamente.

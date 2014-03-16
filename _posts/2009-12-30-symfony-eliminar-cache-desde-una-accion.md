@@ -6,20 +6,15 @@ redirect_from: /articulo/symfony-eliminar-cache-desde-una-accion/
 locale: es
 ---
 
-Para eliminar la cache de una aplicación y un entorno determinado: 
+Para eliminar la cache de una aplicación y un entorno determinado:
 
 {% highlight php startinline %}
 /**
- * Eliminar cache según aplicación y entorno
- *
- * @param string $app aplicación
- * @param string $env entorno
+ * @param string $app
+ * @param string $env
  */
-function clear_cache ($app, $env)
-{
+function clear_cache ($app, $env) {
   $cacheDir = sfConfig::get('sf_cache_dir').'/'. $app.'/'.$env.'/';
-
-  //Eliminamos la cache
   $cache = new sfFileCache(array('cache_dir' => $cacheDir));
   $cache->clean();
 }

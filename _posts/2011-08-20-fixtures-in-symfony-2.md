@@ -21,8 +21,7 @@ To install a Doctrine 2 fixtures system in our Symfony 2 app, we have to add the
 
 Installation:
 
-
-    $ bin/vendors install
+    bin/vendors install
 
 We have to activate it in the app/autoload.php:
 {% highlight php startinline %}
@@ -98,5 +97,4 @@ class LoadUserData extends AbstractFixture implements OrderedFixtureInterface
 
 Finally, in order to load the fixtures configuration, we have to execute the next command:
 
-
-    $ php app/console doctrine:fixtures:load
+    php app/console doctrine:fixtures:load

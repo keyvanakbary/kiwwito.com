@@ -14,13 +14,16 @@ Open "Network connections".
 
 Or we can type in console "nm-connection-editor" (Ubuntu 10.04) or network-manager (Ubuntu <  10.04).
 
-<img src="/uploads/images/full/652ed52a6a7543ca570d14f40677d79d860ebb6d.png" alt="" />
+![Eduroam Add Network]({{ site.url }}/assets/posts/eduroam-add-network.png)
+
 Select the tab "**Wireless**" and press the "Add" button.
 
-<img src="/uploads/images/full/124771290049d4113bff098405ba460dd6842bef.png" alt="" />
+![Eduroam Configuration]({{ site.url }}/assets/posts/eduroam-configuration.png)
+
 In the "**Wireless**" tab we have to insert in SSID field "eduroam".
 
-<img src="/uploads/images/full/41739eebb8dcb6e2f4b54bbea05914f8de2fd84c.png" alt="" width="495" height="512" />
+![Eduroam Configuration]({{ site.url }}/assets/posts/eduroam-security.png)
+
 In the "**Wireless security**", into "**Security**" we have to select "**WPA2 enterpris**e", in "**Authentication**" "**TLS through tunnel**", in "**Anonymous identity**" nothing, in "**CA certificate**" nothing, in "**Internal authentication**" we have to select "**PAP**" and in "**User**" and "**Password**" fields the usual authentication data for access your career system (normally user@university.com).
 
 At this point we may be connected.

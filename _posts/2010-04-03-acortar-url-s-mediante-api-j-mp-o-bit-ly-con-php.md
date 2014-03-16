@@ -6,11 +6,10 @@ redirect_from: /articulo/acortar-url-s-mediante-api-j-mp-o-bit-ly-con-php/
 locale: es
 ---
 
-Primero, para utilizar el API de bit.ly, debes <a href="http://j.mp/account/register">registrarte</a> y <a href="http://bit.ly/account/your_api_key">obtener una clave de api</a>. Una vez hecho esto, mediante cURL podemos acortar una URL llamando a la siguiente sencilla función PHP:
+Primero, para utilizar el API de bit.ly, debes [registrarte](http://j.mp/account/register) y [obtener una clave de api](http://bit.ly/account/your_api_key). Una vez hecho esto, mediante cURL podemos acortar una URL llamando a la siguiente sencilla función PHP:
 
 {% highlight php startinline %}
-function acortarUrl ($url)
-{
+function acortarUrl ($url) {
   $usuarioBitly = 'PRUEBA';
   $claveAPI = 'CLAVE_API';
 

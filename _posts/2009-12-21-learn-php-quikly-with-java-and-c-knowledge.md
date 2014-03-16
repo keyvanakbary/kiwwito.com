@@ -7,8 +7,8 @@ locale: en
 ---
 
 PHP Object Oriented is like than Java and procedimental form like C.  The previous knoledge of one of those can save a lot of PHP learning time.
-### PHP OO is like Java:
-**In Java:**
+
+### In Java
 
 {% highlight java %}
 //Abstract class
@@ -53,7 +53,7 @@ class MyClassWithInheritanceAndInterface extends MyAbstractClass implements MyIn
 }
 {% endhighlight %}
 
-**In**** PHP:**
+### In PHP
 
 {% highlight php startinline %}
 //Abstract class

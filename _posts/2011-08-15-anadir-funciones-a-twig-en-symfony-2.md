@@ -100,7 +100,7 @@ class MyBundleExtension extends \Twig_Extension
 }
 {% endhighlight %}
 
-Eso es todo, ahora para utilizar nuestra nueva función en las plantillas Twig solo tenemos que invocar la función totime():
+Eso es todo, ahora para utilizar nuestra nueva función en las plantillas Twig solo tenemos que invocar la función `totime()`:
 
 {% highlight jinja %}
 {{ totime(strtime) }}

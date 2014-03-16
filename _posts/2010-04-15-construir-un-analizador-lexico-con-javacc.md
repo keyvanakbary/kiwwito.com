@@ -15,22 +15,23 @@ Para el desarrollo, utilizaremos una herramienta increíblemente útil, **JavaCC
 ### Sobre JavaCC:
 JavaCC es una herramienta que generalmente se utiliza para generar analizadores léxicos y sintácticos (parsers) de una forma muy cómoda, actualmente se encuentra mantenida por Sun Microsystems y es muy robusta, eficiente y fiable. Puedes descargarla desde el <a href="http://javacc.java.net/">repositorio oficial</a> o mediante un <a href="http://eclipse-javacc.sourceforge.net/">plugin para Eclipse</a>.
 
-### Caso práctico, construir analizador léxico para un determinado lenguaje de programación:
+#### Caso práctico, construir analizador léxico para un determinado lenguaje de programación:
+
 Las especificaciones de nuestro lenguaje son:
 
- <span style="text-decoration: underline;">**Tokens: **</span>
-<ul>
-<li>**Constantes**:
-<ul>
-<li>**Cadenas**: Caracteres entrecomillados, ejemplo: "cadena"</li>
-<li>**Enteros**: Números positivos, ejemplo: 234 o 0</li>
-<li>**Lógicas**: TRUE y FALSE</li>
-</ul>
-</li>
-<li>**Identificadores**: Todos los identificadores son una secuencia de letras (a-zA-Z) y números que obligatoriamente deben comenzar con una letra (y no un número). **Los identificadores que se refieran a cadenas terminarán en "$"**.</li>
-<li>**Palabras reservadas:** En el lenguaje hay palabras reservadas que darán vida al lenguaje, estas serán: "**not, if, end, let, call, then, case, else, input, print, select y static**".</li>
-<li>Además el lenguaje será "**case insensitive**" o lo que es lo mismo, un identificador llamado "id" apuntará al mismo lugar que "Id", "iD" o "ID". **De igual forma será para las palabras reservadas**.</li>
-</ul>
+### Tokens:
+**Constantes**:
+
+- **Cadenas**: Caracteres entrecomillados, ejemplo: "cadena"
+- **Enteros**: Números positivos, ejemplo: 234 o 0
+- **Lógicas**: TRUE y FALSE
+
+**Identificadores**: Todos los identificadores son una secuencia de letras (a-zA-Z) y números que obligatoriamente deben comenzar con una letra (y no un número). **Los identificadores que se refieran a cadenas terminarán en "$"**.
+
+**Palabras reservadas:** En el lenguaje hay palabras reservadas que darán vida al lenguaje, estas serán: "**not, if, end, let, call, then, case, else, input, print, select y static**".
+
+Además el lenguaje será "**case insensitive**" o lo que es lo mismo, un identificador llamado "id" apuntará al mismo lugar que "Id", "iD" o "ID". **De igual forma será para las palabras reservadas**.
+
 ### Código JavaCC (exparser.jj):
 {% highlight java %}
 options {
@@ -133,14 +134,11 @@ void Start () : {}
 
 Para compilar este fichero, se debe hacer con "**javacc**" y posteriormente con "**javac**":
 
-{% highlight bash %}
-$ javacc exparser.jj
-$ javac *.java
-{% endhighlight %}
+    javacc exparser.jj
+    javac *.java
 
 Para ejecutar el programa:
 
-
-    $ java ExampleParser fichero
+    java ExampleParser fichero
 
 Recuerda que este programa es un analizador léxico, no trata de comprobar las estructuras del lenguaje ni compilará el fichero en código binario. Puedes seguir desarrollando el código y acabar construyendo un compilador o un parser (analizador).

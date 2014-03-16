@@ -15,7 +15,7 @@ ExpiresDefault "access plus 1 month"
 
 <sub>* One month expiration since the access for all elements.</sub>
 
- Probably, a better directive for heavy web elements like images, CSS's and JS's based on the filetype:
+Probably, a better directive for heavy web elements like images, CSS's and JS's based on the filetype:
 
 {% highlight apache %}
 ExpiresActive On

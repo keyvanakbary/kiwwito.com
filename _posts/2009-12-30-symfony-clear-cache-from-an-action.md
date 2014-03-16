@@ -6,20 +6,15 @@ redirect_from: /article/symfony-clear-cache-from-an-action/
 locale: en
 ---
 
-For application and environment clear cache: 
+For application and environment clear cache:
 
 {% highlight php startinline %}
 /**
- * Delete cache for application and environment
- *
- * @param string $app aplicación
- * @param string $env entorno
+ * @param string $app
+ * @param string $env
  */
-function clear_cache ($app, $env)
-{
+function clear_cache ($app, $env) {
   $cacheDir = sfConfig::get('sf_cache_dir').'/'. $app.'/'.$env.'/';
-
-  //Clear cache
   $cache = new sfFileCache(array('cache_dir' => $cacheDir));
   $cache->clean();
 }

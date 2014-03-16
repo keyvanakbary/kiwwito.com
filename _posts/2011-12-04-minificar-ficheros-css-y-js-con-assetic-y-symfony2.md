@@ -35,5 +35,4 @@ Assetic compilará todos los ficheros CSS de nuestro bundle en un único fichero
 
 En el entorno de desarrollo se generará este fichero por cada vez que se haga una petición a la página. Para el entorno de producción deberemos generar este fichero con el siguiente comando:
 
-
     php app/console assetic:dump --env=dev --no-debug

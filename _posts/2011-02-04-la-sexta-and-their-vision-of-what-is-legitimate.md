@@ -4,6 +4,7 @@ title: "La Sexta and their vision of what is legitimate"
 description: "The Sinde law has come early... it's true that La Sexta is moving..."
 redirect_from: /article/la-sexta-and-their-vision-of-what-is-legitimate/
 locale: en
+published: false
 ---
 
 <div style="font-size:10px; border:1px solid #900; padding:4px;color:#900; ">Note: Kiwwito.com had offered Syrus Akbary this space to express his opinion beyond the 140 characters of a tweet.</div>

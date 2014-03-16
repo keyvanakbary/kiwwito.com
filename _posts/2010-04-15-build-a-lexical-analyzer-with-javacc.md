@@ -12,25 +12,28 @@ A token is the minimal meaning component. Common tokens are **identifiers**, **i
 
 For building it, we are going to use an incredible useful tool, **JavaCC**. With simple **regular expressions** we can define our language tokens.
 
-### About JavaCC:
+#### About JavaCC:
 JavaCC is a tool usually used for parsers and is actually maintained by Sun Microsystems. Is very simple, efficient and safe. You can freely download it from the <a href="http://javacc.java.net/">official website</a> or like a <a href="http://eclipse-javacc.sourceforge.net/">Eclipse plugin</a>.
 
-### Practical case, build a lexical analyzer for a determined defined language:
+### Practical case, build a lexical analyzer for a determined defined language
+
 Our language specifications are:
-<span style="text-decoration: underline;">**Tokens: **</span>
-<ul>
-<li>**Constants**:
-<ul>
-<li>**Strings**: Characters between quotes, example: "cadena"</li>
-<li>**Integers**: Positive numbers, example: 234 o 0</li>
-<li>**Logicals**: TRUE and FALSE</li>
-</ul>
-</li>
-<li>**Identifiers**: All the identifiers are a sequence of letters (a-zA-Z) and numbers that must start with a letter (and not a number). The **identifiers that refers to strings must end with a dollar** ($).</li>
-<li>**Reserved words**: In the language are some reserved words that refers to programming structures that brings to life the language. Those are "**not, if, end, let, call, then, case, else, input, print, select, and static**".</li>
-<li>Also, the language is **case insensitive**, that is, an identifier named "id" refers to the same point that another called "Id", "iD" or "ID". The same methodology for reserved words.</li>
-</ul>
-### JavaCC code (exparser.jj):
+
+### Tokens:
+**Constants**
+
+- **Strings**: Characters between quotes, example: "cadena"
+- **Integers**: Positive numbers, example: 234 o 0
+- **Logicals**: TRUE and FALSE
+
+**Identifiers**: All the identifiers are a sequence of letters (a-zA-Z) and numbers that must start with a letter (and not a number). The **identifiers that refers to strings must end with a dollar** ($).
+
+**Reserved words**: In the language are some reserved words that refers to programming structures that brings to life the language. Those are "**not, if, end, let, call, then, case, else, input, print, select, and static**".
+
+Also, the language is **case insensitive**, that is, an identifier named "id" refers to the same point that another called "Id", "iD" or "ID". The same methodology for reserved words.
+
+### JavaCC code (exparser.jj)
+
 {% highlight java %}
 options {
   IGNORE_CASE = true;
@@ -132,14 +135,11 @@ void Start () : {}
 
 For compiling this file you have to use "**javacc**" and after "**javac**":
 
-{% highlight bash %}
-$ javacc exparser.jj
-$ javac *.java
-{% endhighlight %}
+    javacc exparser.jj
+    javac *.java
 
 For executing the program:
 
-
-    $ java ExampleParser file
+    java ExampleParser file
 
 Remember that the previous code is for the lexical analyzer, it not try to check the programming structures or compiling it to binary code, it only break the input into tokens. However, you can follow the development and make a compiler or a parser.

@@ -15,7 +15,7 @@ ExpiresDefault "access plus 1 month"
 
 <sub>* Especificamos expiración para todos los elementos de un més a partir de fecha de acceso.</sub>
 
- Probablemente una directiva mejor, orientada a imágenes, css y js (elementos más pesados de la web) según tipo de fichero:
+Probablemente una directiva mejor, orientada a imágenes, css y js (elementos más pesados de la web) según tipo de fichero:
 
 {% highlight apache %}
 ExpiresActive On
