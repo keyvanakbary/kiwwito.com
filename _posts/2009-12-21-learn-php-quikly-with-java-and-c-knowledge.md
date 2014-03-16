@@ -2,6 +2,7 @@
 layout: post
 title: "Learn PHP quikly with Java and C knowledge "
 description: "If you alredy know about C and Java, learning PHP can be too easy"
+redirect_from: /article/learn-php-quikly-with-java-and-c-knowledge/
 locale: en
 ---
 
@@ -54,7 +55,7 @@ class MyClassWithInheritanceAndInterface extends MyAbstractClass implements MyIn
 
 **In**** PHP:**
 
-{% highlight php %}
+{% highlight php startinline %}
 //Abstract class
 abstract MyAbstractClass {
   abstract public function myAbstractMethod ();
@@ -114,7 +115,7 @@ int main (int argc,char **argv)
 
 **in PHP:**
 
-{% highlight php %}
+{% highlight php startinline %}
 //Main function
 function main () {
   echo "Hello world\n";

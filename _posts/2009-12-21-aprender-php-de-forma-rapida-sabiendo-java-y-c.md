@@ -2,6 +2,7 @@
 layout: post
 title: "Aprender PHP de forma rápida sabiendo Java y C"
 description: "Si ya conoces Java y C aprender PHP será como un juego de niños"
+redirect_from: /articulo/aprender-php-de-forma-rapida-sabiendo-java-y-c/
 locale: es
 ---
 
@@ -54,7 +55,7 @@ class MiClaseConHerenciaEInterfaz extends MiClaseAbstracta implements MiInterfaz
 
 **En PHP:**
 
-{% highlight php %}
+{% highlight php startinline %}
 //Clase Abstracta
 abstract MiClaseAbstracta {
   abstract public function miMetodoAbstracto ();
@@ -115,7 +116,7 @@ int main (int argc,char **argv)
 
 **y en PHP:**
 
-{% highlight php %}
+{% highlight php startinline %}
 //Función principal
 function main () {
   echo "Hola mundo\n";
