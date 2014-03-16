@@ -13,10 +13,17 @@
         <title>{{ page.title }}</title>
 
         <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700&amp;subset=latin,latin-ext" rel="stylesheet">
-
         <link href="/css/main.css" rel="stylesheet" type="text/css">
-        <meta http-equiv="x-dns-prefetch-control" content="off">
         <script src="/js/main.js"></script>
+
+        <meta name="description" content="{{ page.description }}">
+        <meta property="og:title" content="{{ page.title }}">
+        <meta property="og:description" content="{{ page.description }}">
+        <meta property="og:image" content="http://kiwwito.com/assets/images/kiwwito.png" />
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta name="twitter:description" content="{{ page.description }}">
+
+        <meta http-equiv="x-dns-prefetch-control" content="off">
     </head>
     <body>
         <div class="offcanvas">
