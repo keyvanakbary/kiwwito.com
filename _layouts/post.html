@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<article class="post-text">
+    <div class="row">
+        <div class="columns eight offset-one post-header">
+            <a href="{{ post.url }}" class="post-date" title="{{ page.date | date_to_string }}">{{ page.date | date_to_string }}</a>
+            <h2><a href="{{ post.url }}">{{ page.title }}</a></h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="columns ten offset-one post-content">
+            {{ content }}
+            <div class="actions">
+                <a href="https://github.com/kiwwito/kiwwito.github.io/blob/master/{{ page.path }}" style="display: inline-block;">Fork Me<span class="icon-pencil"></span></a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="columns ten offset-one post-content disqus-comments">
+            <h4 class="header-nc">Recent comments</h3>
+                <div id="disqus_thread"></div>
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    var disqus_shortname = 'kiwwito';
+                    (function() {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+    </div>
+</article>

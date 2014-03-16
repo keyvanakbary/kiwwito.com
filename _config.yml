@@ -1,0 +1,4 @@
+name: Kiwwito
+markdown: redcarpet
+pygments: true
+permalink: /:title

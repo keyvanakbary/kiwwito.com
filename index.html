@@ -1,0 +1,25 @@
+---
+layout: default
+title: Kiwwito – Code Snippets and More
+---
+
+{% for post in site.posts %}
+    {% if post.locale == 'en' %}
+        <article class="post-text">
+            <div class="row">
+                <div class="columns eight offset-one post-header">
+                    <a href="{{ post.url }}" class="post-date" title="{{ post.date | date_to_string }}">{{ post.date | date_to_string }}</a>
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="columns ten offset-one post-content">
+                    <p>{{ post.description }}</p>
+                    <p class="read_more_container">
+                        <a href="{{ post.url }}" class="read_more">Read More<span class="icon-arrow-right5"></span></a>
+                    </p>
+                </div>
+            </div>
+        </article>
+    {% endif %}
+{% endfor %}
