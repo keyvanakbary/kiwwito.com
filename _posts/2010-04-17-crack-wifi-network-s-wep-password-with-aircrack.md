@@ -2,6 +2,7 @@
 layout: post
 title: "Crack WIFI network's WEP password with Aircrack"
 description: "How to crack a WIFI network's WEP password with Aircrack suite"
+redirect_from: /article/crack-wifi-network-s-wep-password-with-aircrack/
 locale: en
 ---
 

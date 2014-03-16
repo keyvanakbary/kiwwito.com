@@ -2,6 +2,7 @@
 layout: post
 title: "Apache .htaccess permission denied"
 description: "How to resolve the access to a non existent .htaccess"
+redirect_from: /article/apache-htaccess-permission-denied/
 locale: en
 ---
 

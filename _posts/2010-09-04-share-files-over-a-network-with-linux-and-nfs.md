@@ -2,6 +2,7 @@
 layout: post
 title: "Share files over a network with Linux and NFS"
 description: "Share files through NFS protocol under Linux"
+redirect_from: /article/share-files-over-a-network-with-linux-and-nfs/
 locale: en
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Regex in \"search and replace\" for Gedit"
 description: "Gedit don't support regular expressions, we can install a plugin for it"
+redirect_from: /article/regex-in-search-and-replace-for-gedit/
 locale: en
 ---
 

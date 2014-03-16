@@ -2,6 +2,7 @@
 layout: post
 title: "Sluggable, Timestampable, etc. in Symfony 2"
 description: "Doctrine 2 behaviours under Symfony 2: Sluggable, Translatable, Timestampable, Loggable and Tree"
+redirect_from: /article/sluggable-timestampable-etc-in-symfony-2/
 locale: en
 ---
 

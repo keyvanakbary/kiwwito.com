@@ -2,6 +2,7 @@
 layout: post
 title: "SSH login without password"
 description: "How to connect to a server through SSH without password"
+redirect_from: /article/ssh-login-without-password/
 locale: en
 ---
 

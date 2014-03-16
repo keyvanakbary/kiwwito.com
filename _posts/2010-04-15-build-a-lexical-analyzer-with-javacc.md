@@ -2,6 +2,7 @@
 layout: post
 title: "Build a lexical analyzer with JavaCC"
 description: "How to create a lexical analyzer with JavaCC for a defined programming language"
+redirect_from: /article/build-a-lexical-analyzer-with-javacc/
 locale: en
 ---
 

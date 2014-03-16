@@ -2,6 +2,7 @@
 layout: post
 title: "Enviar un email con Symfony y Swift Mailer"
 description: "Como enviar un email desde una acción con Symfony 1.4 o 1.3"
+redirect_from: /articulo/enviar-un-email-con-symfony-y-swift-mailer/
 locale: es
 ---
 

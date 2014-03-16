@@ -2,6 +2,7 @@
 layout: post
 title: "Redirect \"domain\" to \"www.domain\" with Apache"
 description: "Configure Apache files for redirect requests like \"domain\" to \"www.domain\""
+redirect_from: /article/redirect-domain-to-www-domain-with-apache/
 locale: en
 ---
 

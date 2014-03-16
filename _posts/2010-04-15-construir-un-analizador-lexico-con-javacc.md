@@ -2,6 +2,7 @@
 layout: post
 title: "Construir un analizador léxico con JavaCC"
 description: "Como crear un analizador léxico con JavaCC para un determinado lenguaje de programación"
+redirect_from: /articulo/construir-un-analizador-lexico-con-javacc/
 locale: es
 ---
 

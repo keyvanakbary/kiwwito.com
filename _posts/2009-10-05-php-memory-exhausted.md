@@ -2,6 +2,7 @@
 layout: post
 title: "Php memory exhausted"
 description: "What is the meaning of this error and how to solve it"
+redirect_from: /article/php-memory-exhausted/
 locale: en
 ---
 

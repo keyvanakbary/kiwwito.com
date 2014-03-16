@@ -2,6 +2,7 @@
 layout: post
 title: "Regex en \"buscar y reemplazar\" para Gedit"
 description: "Aunque Gedit no soporta expresiones regulares, podemos instalar un plugin para ello"
+redirect_from: /articulo/regex-en-buscar-y-reemplazar-para-gedit/
 locale: es
 ---
 

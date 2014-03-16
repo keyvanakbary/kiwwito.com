@@ -2,6 +2,7 @@
 layout: post
 title: "Disable spell checking in eclipse"
 description: "How to disable text spell checking in Eclipse"
+redirect_from: /article/disable-spell-checking-in-eclipse/
 locale: en
 ---
 

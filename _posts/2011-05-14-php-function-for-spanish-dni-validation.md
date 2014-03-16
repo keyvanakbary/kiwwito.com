@@ -2,6 +2,7 @@
 layout: post
 title: "PHP function for spanish DNI validation"
 description: "PHP function which checks if a given string was a valid spanish DNI/NIE"
+redirect_from: /article/php-function-for-spanish-dni-validation/
 locale: en
 ---
 

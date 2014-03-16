@@ -2,6 +2,7 @@
 layout: post
 title: "Lorem ipsum"
 description: "What is Lorem Ipsum?"
+redirect_from: /article/lorem-ipsum/
 locale: en
 ---
 

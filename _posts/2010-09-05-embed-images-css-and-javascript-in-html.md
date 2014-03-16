@@ -2,6 +2,7 @@
 layout: post
 title: "Embed images, css and javascript in HTML"
 description: "Using the \"data\" URI in the source path of images, css and javascript we can embed it into HTML code"
+redirect_from: /article/embed-images-css-and-javascript-in-html/
 locale: en
 ---
 

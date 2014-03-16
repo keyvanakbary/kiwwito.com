@@ -2,6 +2,7 @@
 layout: post
 title: "Iniciar sesión servidor SSH sin contraseña"
 description: "Como conectarse a un servidor mediante SSH sin introducir contraseña"
+redirect_from: /articulo/iniciar-sesion-servidor-ssh-sin-contrasena/
 locale: es
 ---
 

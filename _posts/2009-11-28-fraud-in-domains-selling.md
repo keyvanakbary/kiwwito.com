@@ -2,6 +2,7 @@
 layout: post
 title: "Fraud in domains selling"
 description: "When you decide sell your domain, is possible that someone try to cheat yourself"
+redirect_from: /article/fraud-in-domains-selling/
 locale: en
 ---
 

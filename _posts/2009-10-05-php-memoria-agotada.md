@@ -2,6 +2,7 @@
 layout: post
 title: "Php memoria agotada"
 description: "Que significa éste habitual error y como resolverlo"
+redirect_from: /articulo/php-memoria-agotada/
 locale: es
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Fixtures in Symfony 2"
 description: "How to create fixtures in our Symfony 2 project"
+redirect_from: /article/fixtures-in-symfony-2/
 locale: en
 ---
 

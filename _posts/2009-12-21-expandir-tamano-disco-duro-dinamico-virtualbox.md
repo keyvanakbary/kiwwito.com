@@ -2,6 +2,7 @@
 layout: post
 title: "Expandir tamaño disco duro dinámico VirtualBox"
 description: "Como expandir discos dinámicos *.vdi"
+redirect_from: /articulo/expandir-tamano-disco-duro-dinamico-virtualbox/
 locale: es
 ---
 

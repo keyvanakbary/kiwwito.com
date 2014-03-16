@@ -2,6 +2,7 @@
 layout: post
 title: "Acortar URL's mediante API j.mp o bit.ly con PHP"
 description: "Como acortar URL's mediante el API de j.mp o bit.ly con una sencilla funcion PHP y cURL"
+redirect_from: /articulo/acortar-url-s-mediante-api-j-mp-o-bit-ly-con-php/
 locale: es
 ---
 

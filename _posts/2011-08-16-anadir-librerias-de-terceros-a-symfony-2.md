@@ -2,6 +2,7 @@
 layout: post
 title: "Añadir librerias de terceros a Symfony 2"
 description: "Como añadir librerías de terceros sin a nuestro proyecto Symfony 2"
+redirect_from: /articulo/anadir-librerias-de-terceros-a-symfony-2/
 locale: es
 ---
 

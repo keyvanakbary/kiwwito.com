@@ -2,6 +2,7 @@
 layout: post
 title: "Lanzamiento kiwwito.com"
 description: "Despues de dos meses de arduo trabajo... ¡Por fín!"
+redirect_from: /articulo/lanzamiento-kiwwito-com/
 locale: es
 ---
 

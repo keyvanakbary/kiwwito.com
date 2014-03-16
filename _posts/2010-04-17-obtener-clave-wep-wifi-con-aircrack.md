@@ -2,6 +2,7 @@
 layout: post
 title: "Obtener clave WEP WIFI con Aircrack"
 description: "Como descifrar claves WEP WIFI con la suite Aircrack"
+redirect_from: /articulo/obtener-clave-wep-wifi-con-aircrack/
 locale: es
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Restore GRUB"
 description: "How to restore GRUB without problems"
+redirect_from: /article/restore-grub/
 locale: en
 ---
 

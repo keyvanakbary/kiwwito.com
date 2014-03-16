@@ -2,6 +2,7 @@
 layout: post
 title: "Desactivar corrección automática en eclipse"
 description: "Como desactivar la corrección automática de texto en Eclipse"
+redirect_from: /articulo/desactivar-correccion-automatica-en-eclipse/
 locale: es
 ---
 

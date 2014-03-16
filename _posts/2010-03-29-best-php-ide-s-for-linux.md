@@ -2,6 +2,7 @@
 layout: post
 title: "Best PHP IDE's for Linux"
 description: "Some of the best developing environments for Linux"
+redirect_from: /article/best-php-ide-s-for-linux/
 locale: en
 ---
 

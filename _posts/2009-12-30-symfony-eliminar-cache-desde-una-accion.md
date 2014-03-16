@@ -2,6 +2,7 @@
 layout: post
 title: "Symfony, eliminar cache desde una acción"
 description: "Sencilla función PHP para poder eliminar la cache desde una acción"
+redirect_from: /articulo/symfony-eliminar-cache-desde-una-accion/
 locale: es
 ---
 

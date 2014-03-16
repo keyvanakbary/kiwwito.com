@@ -2,6 +2,7 @@
 layout: post
 title: "Optimizar web con addon 'page speed' para Firefox"
 description: "Acelera el tiempo de respuesta de tu servidor para servir páginas web con el addon 'page speed' para Firefox"
+redirect_from: /articulo/optimizar-web-con-addon-page-speed-para-firefox/
 locale: es
 ---
 

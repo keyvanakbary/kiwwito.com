@@ -2,6 +2,7 @@
 layout: post
 title: "Reconfigurar Apache para utilizar vhosts de Plesk"
 description: "Como reconfigurar el servidor Apache para que utilice la configuración Plesk"
+redirect_from: /articulo/reconfigurar-apache-para-utilizar-vhosts-de-plesk/
 locale: es
 ---
 

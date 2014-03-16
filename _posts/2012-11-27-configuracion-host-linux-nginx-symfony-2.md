@@ -2,6 +2,7 @@
 layout: post
 title: "Configuración host Linux Nginx Symfony 2"
 description: "Configuración host Nginx para Symfony 2 en Linux"
+redirect_from: /articulo/configuracion-host-linux-nginx-symfony-2/
 locale: es
 ---
 

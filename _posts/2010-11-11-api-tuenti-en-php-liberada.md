@@ -2,6 +2,7 @@
 layout: post
 title: "API Tuenti en PHP liberada"
 description: "Publicada la primera versión del API PHP para Tuenti "
+redirect_from: /articulo/api-tuenti-en-php-liberada/
 locale: es
 ---
 

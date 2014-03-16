@@ -2,6 +2,7 @@
 layout: post
 title: "Extending Twig in Symfony 2, add custom functions"
 description: "How to add functions to Twig in Symfony 2"
+redirect_from: /article/extending-twig-in-symfony-2-add-custom-functions/
 locale: en
 ---
 

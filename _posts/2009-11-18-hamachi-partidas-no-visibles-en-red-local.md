@@ -2,6 +2,7 @@
 layout: post
 title: "Hamachi, partidas no visibles en red local"
 description: "Como solucionar el problema de partidas invisibles con Hamachi"
+redirect_from: /articulo/hamachi-partidas-no-visibles-en-red-local/
 locale: es
 ---
 

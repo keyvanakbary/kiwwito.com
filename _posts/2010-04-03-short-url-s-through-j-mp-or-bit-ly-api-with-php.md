@@ -2,6 +2,7 @@
 layout: post
 title: "Short URL's through j.mp or bit.ly API with PHP"
 description: "How to short URL's through j.mp or bit.ly API with a simple PHP function and cURL"
+redirect_from: /article/short-url-s-through-j-mp-or-bit-ly-api-with-php/
 locale: en
 ---
 

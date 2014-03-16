@@ -2,6 +2,7 @@
 layout: post
 title: "Operaciones masivas sobre imágenes en Ubuntu"
 description: "Gracias a ImageMagick y la línea de comandos podemos ejecutar operaciones sobre imágenes de forma masiva"
+redirect_from: /articulo/operaciones-masivas-sobre-imagenes-en-ubuntu/
 locale: es
 ---
 

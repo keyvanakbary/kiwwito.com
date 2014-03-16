@@ -2,6 +2,7 @@
 layout: post
 title: "Cambiar directorio de trabajo SVN"
 description: "Usando el comando switch podemos cambiar de directorio de trabajo"
+redirect_from: /articulo/cambiar-directorio-de-trabajo-svn/
 locale: es
 ---
 

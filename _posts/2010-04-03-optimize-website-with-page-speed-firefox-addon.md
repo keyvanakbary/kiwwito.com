@@ -2,6 +2,7 @@
 layout: post
 title: "Optimize website with 'page speed' Firefox addon"
 description: "Speed up your server page response with 'page speed' addon for Firefox"
+redirect_from: /article/optimize-website-with-page-speed-firefox-addon/
 locale: en
 ---
 

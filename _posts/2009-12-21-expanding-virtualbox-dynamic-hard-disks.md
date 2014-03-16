@@ -2,6 +2,7 @@
 layout: post
 title: "Expanding VirtualBox dynamic hard disks"
 description: "How to expand *.vdi dinamic disks"
+redirect_from: /article/expanding-virtualbox-dynamic-hard-disks/
 locale: en
 ---
 

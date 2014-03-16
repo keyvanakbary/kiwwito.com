@@ -2,6 +2,7 @@
 layout: post
 title: "PHP Tuenti API released"
 description: "Released the first version of the PHP Tuenti API"
+redirect_from: /article/php-tuenti-api-released/
 locale: en
 ---
 

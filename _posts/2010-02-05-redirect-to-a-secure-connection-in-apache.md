@@ -2,6 +2,7 @@
 layout: post
 title: "Redirect to a secure connection in Apache"
 description: "Through simple rules for the mod_rewrite of Apache we can redirect file o directory access to a secure connection https"
+redirect_from: /article/redirect-to-a-secure-connection-in-apache/
 locale: en
 ---
 

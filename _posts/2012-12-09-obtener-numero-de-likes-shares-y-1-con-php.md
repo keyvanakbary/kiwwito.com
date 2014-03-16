@@ -2,6 +2,7 @@
 layout: post
 title: "Obtener número de likes, shares y +1 con PHP"
 description: "Obtener número de likes de Facebook, shares de Twitter y +1 de Google a través de APIs y PHP"
+redirect_from: /articulo/obtener-numero-de-likes-shares-y-1-con-php/
 locale: es
 ---
 

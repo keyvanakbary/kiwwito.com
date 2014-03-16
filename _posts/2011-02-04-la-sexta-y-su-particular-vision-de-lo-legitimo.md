@@ -2,6 +2,7 @@
 layout: post
 title: "La Sexta y su particular visión de lo legítimo"
 description: "La ley Sinde ha llegado antes de tiempo… será verdad que La Sexta se mueve..."
+redirect_from: /articulo/la-sexta-y-su-particular-vision-de-lo-legitimo/
 locale: es
 ---
 

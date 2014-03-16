@@ -2,6 +2,7 @@
 layout: post
 title: "Conectar con \"eduroam\" desde Linux"
 description: "Como conectarse con la red wireless \"eduroam\" desde Linux (Ubuntu)"
+redirect_from: /articulo/conectar-con-eduroam-desde-linux/
 locale: es
 ---
 

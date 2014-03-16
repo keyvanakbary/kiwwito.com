@@ -2,6 +2,7 @@
 layout: post
 title: "Poner imagen a GRUB"
 description: "Para mejorar la experiencia de usuario, nada mejor que poner una imágen personalizada"
+redirect_from: /articulo/poner-imagen-a-grub/
 locale: es
 ---
 

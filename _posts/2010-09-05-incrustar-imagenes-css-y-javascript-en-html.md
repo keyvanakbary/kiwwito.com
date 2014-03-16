@@ -2,6 +2,7 @@
 layout: post
 title: "Incrustar imágenes, css y javascript en HTML"
 description: "Usando la URI de tipo \"data\" en la ruta de imágenes, css y javascript podemos incrustarlos en código HTML "
+redirect_from: /articulo/incrustar-imagenes-css-y-javascript-en-html/
 locale: es
 ---
 

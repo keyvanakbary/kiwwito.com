@@ -2,6 +2,7 @@
 layout: post
 title: "Compartir ficheros en red con Linux y NFS"
 description: "Compartir ficheros en red mediante el protocolo NFS en Linux"
+redirect_from: /articulo/compartir-ficheros-en-red-con-linux-y-nfs/
 locale: es
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Add GRUB splash image"
 description: "To increase user experience, nothing better than add a grub splash image"
+redirect_from: /article/add-grub-splash-image/
 locale: en
 ---
 

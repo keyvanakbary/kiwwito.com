@@ -2,6 +2,7 @@
 layout: post
 title: "Restaurar GRUB2"
 description: "Como restaurar GRUB 2 si no tenemos acceso a la partición"
+redirect_from: /articulo/restaurar-grub2/
 locale: es
 ---
 

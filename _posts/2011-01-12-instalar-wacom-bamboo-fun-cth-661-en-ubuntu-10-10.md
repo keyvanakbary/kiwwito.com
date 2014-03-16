@@ -2,6 +2,7 @@
 layout: post
 title: "Instalar Wacom Bamboo Fun CTH-661 en  Ubuntu 10.10"
 description: "Instalar Wacom Bamboo Fun en Ubuntu 10.10 Maverik Merkaat"
+redirect_from: /articulo/instalar-wacom-bamboo-fun-cth-661-en-ubuntu-10-10/
 locale: es
 ---
 

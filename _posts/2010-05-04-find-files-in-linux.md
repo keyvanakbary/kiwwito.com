@@ -2,6 +2,7 @@
 layout: post
 title: "Find files in Linux"
 description: "How to find files in our Linux system with the \"find\" command"
+redirect_from: /article/find-files-in-linux/
 locale: en
 ---
 

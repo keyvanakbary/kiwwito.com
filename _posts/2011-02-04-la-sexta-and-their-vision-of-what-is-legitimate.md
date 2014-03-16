@@ -2,6 +2,7 @@
 layout: post
 title: "La Sexta and their vision of what is legitimate"
 description: "The Sinde law has come early... it's true that La Sexta is moving..."
+redirect_from: /article/la-sexta-and-their-vision-of-what-is-legitimate/
 locale: en
 ---
 

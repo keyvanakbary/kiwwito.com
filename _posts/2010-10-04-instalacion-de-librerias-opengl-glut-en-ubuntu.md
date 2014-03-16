@@ -2,6 +2,7 @@
 layout: post
 title: "Instalación de librerías OpenGL/Glut en Ubuntu"
 description: "Pasos para instalar, enlazar y ejecutar programas OpenGL/Glut en Ubuntu"
+redirect_from: /articulo/instalacion-de-librerias-opengl-glut-en-ubuntu/
 locale: es
 ---
 

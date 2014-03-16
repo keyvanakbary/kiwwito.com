@@ -2,6 +2,7 @@
 layout: post
 title: "Minificar ficheros CSS y JS con Assetic y Symfony2"
 description: "Como unificar y minificar ficheros CSS y JS con Assetic y Symfony2"
+redirect_from: /articulo/minificar-ficheros-css-y-js-con-assetic-y-symfony2/
 locale: es
 ---
 

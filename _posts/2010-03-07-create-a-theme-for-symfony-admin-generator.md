@@ -2,6 +2,7 @@
 layout: post
 title: "Create a theme for symfony admin generator"
 description: "We can create a theme to customize symfony admin generator interface"
+redirect_from: /article/create-a-theme-for-symfony-admin-generator/
 locale: en
 ---
 

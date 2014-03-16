@@ -2,6 +2,7 @@
 layout: post
 title: "Massive operations over images under Ubuntu"
 description: "Thanks to ImageMagick and the command console we can execute operations over massive amount of images "
+redirect_from: /article/massive-operations-over-images-under-ubuntu/
 locale: en
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "How to know bits Linux"
 description: "How to know our Linux Operative System arquitecture  (32 o 64 bits)"
+redirect_from: /article/how-to-know-bits-linux/
 locale: en
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Add third party libraries to Symfony 2"
 description: "How to add third party libraries to our Symfony 2 project"
+redirect_from: /article/add-third-party-libraries-to-symfony-2/
 locale: en
 ---
 

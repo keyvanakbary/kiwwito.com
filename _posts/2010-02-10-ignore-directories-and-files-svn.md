@@ -2,6 +2,7 @@
 layout: post
 title: "Ignore directories and files SVN"
 description: "With file properties, we can ignore files and directories"
+redirect_from: /article/ignore-directories-and-files-svn/
 locale: en
 ---
 

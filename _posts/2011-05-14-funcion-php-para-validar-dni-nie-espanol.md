@@ -2,6 +2,7 @@
 layout: post
 title: "Función PHP para validar DNI/NIE español"
 description: "Función PHP que comprueba si una cadena de texto es un DNI/NIE español válido"
+redirect_from: /articulo/funcion-php-para-validar-dni-nie-espanol/
 locale: es
 ---
 

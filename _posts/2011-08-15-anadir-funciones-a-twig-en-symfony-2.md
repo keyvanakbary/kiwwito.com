@@ -2,6 +2,7 @@
 layout: post
 title: "Añadir funciones a Twig en Symfony 2"
 description: "Como añadir funciones a Twig en Symfony 2"
+redirect_from: /articulo/anadir-funciones-a-twig-en-symfony-2/
 locale: es
 ---
 

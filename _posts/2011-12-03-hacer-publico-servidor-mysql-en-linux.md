@@ -2,6 +2,7 @@
 layout: post
 title: "Hacer público servidor MySQL en Linux"
 description: "Como hacer público tu servidor MySQL en la red"
+redirect_from: /articulo/hacer-publico-servidor-mysql-en-linux/
 locale: es
 ---
 

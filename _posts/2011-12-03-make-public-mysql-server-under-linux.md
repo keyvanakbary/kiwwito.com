@@ -2,6 +2,7 @@
 layout: post
 title: "Make public MySQL server under Linux"
 description: "How to make public your MySQL server over the Network"
+redirect_from: /article/make-public-mysql-server-under-linux/
 locale: en
 ---
 

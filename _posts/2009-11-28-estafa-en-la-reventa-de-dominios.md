@@ -2,6 +2,7 @@
 layout: post
 title: "Estafa en la reventa de dominios"
 description: "Cuando pongas en venta tu domininio, es posible que intenten estafarte"
+redirect_from: /articulo/estafa-en-la-reventa-de-dominios/
 locale: es
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Minify CSS and JS files with Assetic and Symfony2"
 description: "How to unify and minify CSS and JS files with Assetic and Symfony2"
+redirect_from: /article/minify-css-and-js-files-with-assetic-and-symfony2/
 locale: en
 ---
 

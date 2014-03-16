@@ -2,6 +2,7 @@
 layout: post
 title: "Redirigir \"dominio\" a \"www.dominio\" con Apache"
 description: "Configurar ficheros Apache para redirigir peticiones del tipo \"domino\" a \"www.dominio\""
+redirect_from: /articulo/redirigir-dominio-a-www-dominio-con-apache/
 locale: es
 ---
 

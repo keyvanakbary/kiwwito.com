@@ -2,6 +2,7 @@
 layout: post
 title: "Ignorar carpetas y ficheros SVN"
 description: "Mediante el uso de propiedades (propedit) podemos ignorar ficheros y directorios"
+redirect_from: /articulo/ignorar-carpetas-y-ficheros-svn/
 locale: es
 ---
 

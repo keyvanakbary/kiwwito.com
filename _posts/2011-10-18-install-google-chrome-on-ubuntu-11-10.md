@@ -2,6 +2,7 @@
 layout: post
 title: "Install Google Chrome on Ubuntu 11.10"
 description: "How to install Google Chrome on Ubuntu 11.10 "
+redirect_from: /article/install-google-chrome-on-ubuntu-11-10/
 locale: en
 ---
 

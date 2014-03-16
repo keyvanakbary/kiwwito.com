@@ -2,6 +2,7 @@
 layout: post
 title: "Integrate GeSHi with PHP applications"
 description: "How to integrate the popular GeSHi syntax highlighter with PHP applications"
+redirect_from: /article/integrate-geshi-with-php-applications/
 locale: en
 ---
 

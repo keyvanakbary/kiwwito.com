@@ -2,6 +2,7 @@
 layout: post
 title: "Buscar ficheros en Linux"
 description: "Como buscar ficheros en nuestro sistema Linux con el comando \"find\""
+redirect_from: /articulo/buscar-ficheros-en-linux/
 locale: es
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Instalar Java (Sun) en Ubuntu"
 description: "Como instalar y ejecutar la versión oficial Java de Sun Microsystems en Ubuntu"
+redirect_from: /articulo/instalar-java-sun-en-ubuntu/
 locale: es
 ---
 

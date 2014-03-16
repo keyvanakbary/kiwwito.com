@@ -2,6 +2,7 @@
 layout: post
 title: "Restaurar GRUB"
 description: "Como restaurar GRUB de una forma sencilla y cómoda"
+redirect_from: /articulo/restaurar-grub/
 locale: es
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Intercepting net traffic with dsniff"
 description: "Using some tools we can intercept data in our local network following simple steps"
+redirect_from: /article/intercepting-net-traffic-with-dsniff/
 locale: en
 ---
 

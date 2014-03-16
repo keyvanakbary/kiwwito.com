@@ -2,6 +2,7 @@
 layout: post
 title: "Ruta de redirección Symfony 2"
 description: "Ruta de redirección para router de Symfony 2"
+redirect_from: /articulo/ruta-de-redireccion-symfony-2/
 locale: es
 ---
 

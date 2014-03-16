@@ -2,6 +2,7 @@
 layout: post
 title: "Getting counts for likes, shares and +1 with PHP "
 description: "Getting count for Facebook likes, Twitter shares, Google +1 with PHP and APIs"
+redirect_from: /article/getting-counts-for-likes-shares-and-1-with-php/
 locale: en
 ---
 

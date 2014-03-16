@@ -2,6 +2,7 @@
 layout: post
 title: "Restore GRUB2"
 description: "How to restore GRUB 2 without if we cannot acess the partition"
+redirect_from: /article/restore-grub2/
 locale: en
 ---
 

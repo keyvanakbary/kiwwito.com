@@ -2,6 +2,7 @@
 layout: post
 title: "Configurar cache de ficheros desde Apache"
 description: "Habilitar las directivas de cache desde el servidor Apache puede incrementar el rendimiento de forma sustancial"
+redirect_from: /articulo/configurar-cache-de-ficheros-desde-apache/
 locale: es
 ---
 

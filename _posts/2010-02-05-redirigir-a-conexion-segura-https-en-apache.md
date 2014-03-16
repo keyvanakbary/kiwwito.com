@@ -2,6 +2,7 @@
 layout: post
 title: "Redirigir a conexión segura https en Apache"
 description: "Mediante unas sencillas reglas para el mod_rewrite de Apache podemos redirigir el acceso a ficheros o carpetas a una conexión segura https"
+redirect_from: /articulo/redirigir-a-conexion-segura-https-en-apache/
 locale: es
 ---
 

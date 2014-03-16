@@ -2,6 +2,7 @@
 layout: post
 title: "Descargar álbumes y fotos de tu Tuenti con PHP"
 description: "Como descargar todos tus los álbumes y fotos de Tuenti con el API no oficial de Tuenti y PHP"
+redirect_from: /articulo/descargar-albumes-y-fotos-de-tu-tuenti-con-php/
 locale: es
 ---
 

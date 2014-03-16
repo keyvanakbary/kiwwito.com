@@ -2,6 +2,7 @@
 layout: post
 title: "Configure file cache from Apache"
 description: "Activate cache directives from Apache server can improve the loading perfornance"
+redirect_from: /article/configure-file-cache-from-apache/
 locale: en
 ---
 

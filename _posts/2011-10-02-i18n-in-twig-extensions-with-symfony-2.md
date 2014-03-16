@@ -2,6 +2,7 @@
 layout: post
 title: "i18n in Twig extensions with Symfony 2"
 description: "Add internationalization to Twig extensions in Symfony 2"
+redirect_from: /article/i18n-in-twig-extensions-with-symfony-2/
 locale: en
 ---
 

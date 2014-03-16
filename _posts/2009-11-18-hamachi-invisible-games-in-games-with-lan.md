@@ -2,6 +2,7 @@
 layout: post
 title: "Hamachi, invisible games in games with LAN"
 description: "How to solve the invisible LAN games problems with Hamachi"
+redirect_from: /article/hamachi-invisible-games-in-games-with-lan/
 locale: en
 ---
 

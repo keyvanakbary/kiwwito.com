@@ -2,6 +2,7 @@
 layout: post
 title: "Installing OpenGL/Glut libraries in Ubuntu"
 description: "Steps to install, link and run OpenGL/Glut programs in Ubuntu"
+redirect_from: /article/installing-opengl-glut-libraries-in-ubuntu/
 locale: en
 ---
 

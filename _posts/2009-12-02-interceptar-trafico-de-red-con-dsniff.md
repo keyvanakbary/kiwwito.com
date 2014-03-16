@@ -2,6 +2,7 @@
 layout: post
 title: "Interceptar tráfico de red con dsniff"
 description: "Mediante el uso de algunas herramientas, podemos interceptar el tráfico de nuestra red local mediante unos sencillos pasos"
+redirect_from: /articulo/interceptar-trafico-de-red-con-dsniff/
 locale: es
 ---
 

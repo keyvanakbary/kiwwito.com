@@ -2,6 +2,7 @@
 layout: post
 title: "LESS CSS with Assetic and Symfony 2"
 description: "Add a LESS filter for your CSS files with Assetic and Symfony 2"
+redirect_from: /article/less-css-with-assetic-and-symfony-2/
 locale: en
 ---
 
