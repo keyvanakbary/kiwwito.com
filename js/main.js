@@ -1,34 +1,35 @@
-function configure_locale() {
-  if (is_not_first_time()) return;
-  var locale = extract_locale();
-  var path = locale_path(locale);
-  create_language_cookie()
-  if (locale != 'en' && is_not_at_path(path)) redirect(path);
-}
+/*globals window, document, navigator*/
+(function (w, d, n) {
+    'use strict';
+    var
+        redirect = function (path) {
+            w.location.href = path;
+        },
+        is_at_path = function (path) {
+            return w.location.pathname === path;
+        },
+        extract_locale = function () {
+            var language = n.language || n.userLanguage;
+            return language.slice(0, 2);
+        },
+        is_locale = function (locale) {
+            return locale === extract_locale();
+        },
+        create_language_cookie = function () {
+            d.cookie = 'language=; path=/';
+        },
+        is_not_first_time = function () {
+            return d.cookie.indexOf('language=') >= 0;
+        },
+        configure_locale = function () {
+            if (is_not_first_time()) {
+                return;
+            }
+            create_language_cookie();
+            if (is_locale('es') && is_at_path('/')) {
+                redirect('/es/');
+            }
+        };
 
-function is_not_first_time() {
-  return document.cookie.indexOf('language=') >= 0;
-}
-
-function extract_locale() {
-  var language = navigator.language || navigator.userLanguage;
-  return language.slice(0, 2);
-}
-
-function locale_path(locale) {
-  return '/'+locale+'/';
-}
-
-function create_language_cookie() {
-  document.cookie = 'language=; path=/';
-}
-
-function is_not_at_path(path) {
-  return window.location.pathname != path;
-}
-
-function redirect(path) {
-  window.location.href = path;
-}
-
-configure_locale();
+    configure_locale();
+}(window, document, navigator));
