@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Función PHP para validar DNI/NIE español"
-description: "Función PHP que comprueba si una cadena de texto es un DNI/NIE español válido"
-redirect_from: /articulo/funcion-php-para-validar-dni-nie-espanol/
-locale: es
+title: "PHP function for spanish DNI/NIE validation"
+description: "PHP function which checks if a given string was a valid spanish DNI/NIE"
+redirect_from:
+    - /article/php-function-for-spanish-dni-validation/
+    - /php-function-for-spanish-dni-validation/
+locale: en
 ---
 
-Función PHP que comprueba si una cadena de texto es un DNI/NIE español válida:
+PHP function which checks if a given string was a valid spanish DNI/NIE:
 
 {% highlight php startinline %}
 function is_valid_dni_nie($string) {
