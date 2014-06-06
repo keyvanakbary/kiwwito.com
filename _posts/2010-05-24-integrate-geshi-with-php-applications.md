@@ -10,12 +10,11 @@ GeSHi (**GE**neric **S**yntax **HI**ghlighter) is a popular PHP library for synt
 
 Warning: GeSHi consumes high processing time, be careful. You can use a cache layer system in order to reduce it (is not the target of the article).
 
-One posible election for integrate GeSHi (previously <a href="http://sourceforge.net/projects/geshi/files/">downloaded</a>) in our PHP application is:
+One posible election for integrate GeSHi (previously [downloaded](http://sourceforge.net/projects/geshi/files/)) in our PHP application is:
 
 {% highlight php startinline %}
 require_once 'geshi/geshi.php';
 /**
- * Replace all founded codes with processed html
  * @param array $matchs matches
  * @return string replace code
  */
@@ -27,8 +26,8 @@ function replace_code ($matchs)
   $geshi->enable_classes();
   return  '<div class="code">' . $geshi->parse_code().'</div>';
 }
+
 /**
- * Process rich content
  * @param string $content non processed content
  * @return string processed content
  */
@@ -44,13 +43,11 @@ function process_content ($content)
   return str_replace(array("\n", "\r"), '', $content);
 }
 
-$content = 'This is PHP code: {% highlight php startinline %}
+$content = 'This is PHP code:&lt;pre class="php"&gt;
 &lt;?php echo "hello" ?&gt;
-{% endhighlight %}
-';
+&lt;/pre&gt;';
 echo process_content($content);
 ?>
-
 {% endhighlight %}
 
-First we use the "process_content" function for searching all the <pre> tags and after that, we use the "replace_code" for replacing all the previous matchs with new proccessed HTML ones (GeSHi code).
+First we use the `process_content` function for searching all the &lt;pre&gt; tags and after that, we use the `replace_code` for replacing all the previous matchs with new proccessed HTML ones (GeSHi code).
