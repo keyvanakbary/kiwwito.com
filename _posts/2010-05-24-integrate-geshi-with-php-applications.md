@@ -19,36 +19,35 @@ require_once 'geshi/geshi.php';
  * @param array $matchs matches
  * @return string replace code
  */
-function replace_code ($matchs)
-{
-  trim(htmlspecialchars_decode($matchs[2]));
-  $geshi = new GeSHi($source, $matchs[1]);
-  $geshi->set_header_type(GESHI_HEADER_NONE);
-  $geshi->enable_classes();
-  return  '<div class="code">' . $geshi->parse_code() . '</div>';
+function replace_code ($matchs) {
+    trim(htmlspecialchars_decode($matchs[2]));
+    $geshi = new GeSHi($source, $matchs[1]);
+    $geshi->set_header_type(GESHI_HEADER_NONE);
+    $geshi->enable_classes();
+
+    return  '<div class="code">' . $geshi->parse_code() . '</div>';
 }
 
 /**
  * @param string $content non processed content
  * @return string processed content
  */
-function process_content ($content)
-{
-  //Replace all the <pre> tags
-  $content = preg_replace_callback(
-    '/<pre\s+class\s*=\s*["\'](.*?)["\']>(.*?)<\/pre>/s',
-    'replace_code',
-    $content
-  );
-  //Delete all new lines (tiny code)
-  return str_replace(array("\n", "\r"), '', $content);
+function process_content ($content) {
+    //Replace all the <pre> tags
+    $content = preg_replace_callback(
+        '/<pre\s+class\s*=\s*["\'](.*?)["\']>(.*?)<\/pre>/s',
+        'replace_code',
+        $content
+    );
+
+    //Delete all new lines
+    return str_replace(array("\n", "\r"), '', $content);
 }
 
 $content = 'This is PHP code:<pre class="php">
 &lt;?php echo "hello" ?&gt;
 </pre>';
 echo process_content($content);
-?>
 {% endhighlight %}
 
 First we use the `process_content` function for searching all the &lt;pre&gt; tags and after that, we use the `replace_code` for replacing all the previous matchs with new proccessed HTML ones (GeSHi code).
