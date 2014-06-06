@@ -6,7 +6,7 @@ redirect_from: /article/download-your-tuenti-albums-and-photos-with-php/
 locale: en
 ---
 
-The first step must be <a href="https://github.com/keyvanakbary/php-tuenti-api">download the non official Tuenti API and make sure that all was correct.
+The first step must be [download the non official Tuenti API](https://github.com/keyvanakbary/php-tuenti-api) and make sure that all was correct.
 
 The download script is very simple (included into the examples of the API):
 
