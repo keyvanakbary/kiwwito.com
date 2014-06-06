@@ -6,7 +6,7 @@ redirect_from: /article/connect-to-eduroam-under-linux/
 locale: en
 ---
 
-**eduroam** (Education Roaming) is a secure international roaming  service for users in Higher Education. The European eduroam  confederation (a confederation of autonomous roaming services) is based  on a set of defined organisational and technical requirements that each  member of the confederation must agree to (by signing the eduroam policy  GN2-07-328) and follow [<a href="http://en.wikipedia.org/wiki/Eduroam">source</a>].
+**Eduroam** (Education Roaming) is a secure international roaming  service for users in Higher Education. The European eduroam  confederation (a confederation of autonomous roaming services) is based  on a set of defined organisational and technical requirements that each  member of the confederation must agree to (by signing the eduroam policy  GN2-07-328) and follow ([source](http://en.wikipedia.org/wiki/Eduroam)).
 
 For configure the conexion under a Linux environment (in this tutorial, under Ubuntu 10.04) we need to have insalled Network Manager (installed by default in all Ubuntu distros) and follow a simple steps.
 
