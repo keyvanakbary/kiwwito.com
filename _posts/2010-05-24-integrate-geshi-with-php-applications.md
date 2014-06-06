@@ -14,6 +14,7 @@ One posible election for integrate GeSHi (previously [downloaded](http://sourcef
 
 {% highlight php startinline %}
 require_once 'geshi/geshi.php';
+
 /**
  * @param array $matchs matches
  * @return string replace code
@@ -21,10 +22,10 @@ require_once 'geshi/geshi.php';
 function replace_code ($matchs)
 {
   trim(htmlspecialchars_decode($matchs[2]));
-  $geshi = new GeSHi($source, $matchs[1]);
+  $geshi = new GeSHi($source, $matchs[1]);
   $geshi->set_header_type(GESHI_HEADER_NONE);
   $geshi->enable_classes();
-  return  '<div class="code">' . $geshi->parse_code().'</div>';
+  return  '<div class="code">' . $geshi->parse_code() . '</div>';
 }
 
 /**
@@ -43,9 +44,9 @@ function process_content ($content)
   return str_replace(array("\n", "\r"), '', $content);
 }
 
-$content = 'This is PHP code:&lt;pre class="php"&gt;
+$content = 'This is PHP code:<pre class="php">
 &lt;?php echo "hello" ?&gt;
-&lt;/pre&gt;';
+</pre>';
 echo process_content($content);
 ?>
 {% endhighlight %}
