@@ -103,5 +103,7 @@ class MyBundleExtension extends \Twig_Extension
 Thats all! To use it under your templates you only have to enter:
 
 {% highlight jinja %}
+{% raw %}
 {{ totime(strtime) }}
+{% endraw %}
 {% endhighlight %}
