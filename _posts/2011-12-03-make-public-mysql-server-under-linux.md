@@ -6,15 +6,14 @@ redirect_from: /article/make-public-mysql-server-under-linux/
 locale: en
 ---
 
-For security reasons when you install into your Linux distro (Ubuntu, CentOS, etc.) a MySQL server, it was only accessible by the loopback or local environment. If you want to access through the network to it you have to configure it.
+For security reasons when you install into your Linux distro (Ubuntu, CentOS, etc.) a MySQL server, it is only accessible through the loopback or local environment. If you want to make it public in your network, you have to configure it first.
 
-We have to edit your "/etc/my.conf" and add/edit the next lines:
+We have to edit your `/etc/my.conf` and add/edit the next lines:
 
 {% highlight ini %}
 [mysqld]
-    port = 3306
-    bind-address = 10.10.0.1
-    # skip-networking
+port = 3306
+bind-address = 10.10.0.1
 {% endhighlight %}
 
 Don't forget to restart the daemon:
