@@ -6,16 +6,19 @@ redirect_from: /article/symfony-2-route-redirection/
 locale: en
 ---
 
-Redirect from a route to another with a 301 status code is as easy as
+Redirect from a route to another with a `301` status code (moved permanently) is as easy as
 
 {% highlight yaml %}
-route:
+redirect_from:
     pattern: /
-    defaults: { _controller: FrameworkBundle:Redirect:redirect, route: redirect_to, permanent: true }
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: redirect_to
+        permanent: true
 
 redirect_to:
     pattern: /redirect
     defaults: { _controller: Bundle:Controller:action }
 {% endhighlight %}
 
-That means, when you enter root you'll be redirected to /redirect
+That means, when you enter root you'll be redirected to `/redirect`
